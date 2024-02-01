@@ -38,6 +38,7 @@ import cs3 from "../../public/images/cs3.jpg"
 import { FaStar } from "react-icons/fa";
 import Download from "@/components/Download";
 import Footer from "@/components/Footer";
+import Nav from "@/components/Nav";
 
 
 
@@ -95,6 +96,7 @@ const Home = () => {
   return (
     <main>
       <section className="max-w-screen-2xl h-[125vh] bg-blue">
+        <Nav/>
         <div className="container mx-auto flex items-center justify-between w-full h-full">
           <div className="mt-[-5rem]">
             <p>Digital Transformation Solution</p>
