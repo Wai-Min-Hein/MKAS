@@ -3,7 +3,7 @@ import React from "react";
 
 const Nav = () => {
   return (
-    <nav className="flex items-center justify-between container mx-auto pt-4">
+    <nav className="flex items-center justify-between container mx-auto pt-4 !text-white">
       <div className="">
         <h6>MkAS</h6>
       </div>

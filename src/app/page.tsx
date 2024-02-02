@@ -16,7 +16,7 @@ import Testimonials from "@/components/Testimonials";
 const Home = () => {
   return (
     <main>
-      <section className="max-w-screen-2xl h-[125vh] bg-blue">
+      <section className="max-w-screen-2xl h-[125vh] bg-blue !text-white">
         <Nav />
         <div className="container mx-auto flex items-center justify-between w-full h-full">
           <div className="mt-[-5rem]">
