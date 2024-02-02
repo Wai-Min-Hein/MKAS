@@ -5,8 +5,7 @@ import { MdEmail } from "react-icons/md";
 const Footer = () => {
   return (
     <section className="  py-8">
-      <div className="border-b-[.5px] border-b-gray-700 pb-4 ">
-        <div className="container mx-auto flex items-start justify-between">
+        <div className="container mx-auto flex items-start justify-between border-b-[.5px] border-b-gray-700 pb-4">
           <div className="basis-1/2">
             <div className="">
               <h1>Myanmar KAS Technology</h1>
@@ -33,7 +32,6 @@ const Footer = () => {
             </div>
           </div>
         </div>
-      </div>
 
       <div className="container mx-auto mt-2">
         <h6>Develop by Myanmar KAS Technology</h6>
