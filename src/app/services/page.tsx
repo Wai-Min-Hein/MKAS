@@ -20,7 +20,7 @@ import ERP from "@/components/ERP";
 const Services = () => {
   return (
     <main>
-      <section className="h-[75vh] w-full bg-blue">
+      <section className="h-[75vh] w-full bg-blue !text-white">
         <Nav />
 
         <div className="grid place-items-center h-full">
