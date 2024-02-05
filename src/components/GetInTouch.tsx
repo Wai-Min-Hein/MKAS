@@ -1,13 +1,16 @@
+import Image from "next/image";
 import React from "react";
 import { FaBuildingColumns } from "react-icons/fa6";
 import { FiPhone } from "react-icons/fi";
 import { IoTimeOutline } from "react-icons/io5";
 import { MdEmail } from "react-icons/md";
 
+import ContactSvg from "../../public/contactSVG.svg"
+
 const GetInTouch = () => {
   return (
-    <section className="container mx-auto">
-      <div className="flex items-start justify-start gap-12">
+    <section className="container mx-auto ">
+      <div className="flex items-center justify-start gap-12">
         <div className="basis-1/2">
           <div className="">
             <p>Contact</p>
@@ -20,7 +23,7 @@ const GetInTouch = () => {
 
           <div className="mt-4">
             <div className="flex items-center justify-between gap-6">
-              <div className="flex items-start justify-start gap-6">
+              <div className="flex items-start justify-start gap-6  basis-1/2">
                 <MdEmail className="text-5xl" />
                 <div className="">
                   <h6>Email</h6>
@@ -28,7 +31,7 @@ const GetInTouch = () => {
                 </div>
               </div>
 
-              <div className="flex items-start justify-start gap-6">
+              <div className="flex items-start justify-start gap-6  basis-1/2">
                 <FiPhone className="text-5xl" />
                 <div className="">
                   <h6>Phone</h6>
@@ -39,7 +42,7 @@ const GetInTouch = () => {
 
 
             <div className="flex items-center justify-between gap-6 mt-8">
-              <div className="flex items-start justify-start gap-6">
+              <div className="flex items-start justify-start gap-6 basis-1/2">
                 <FaBuildingColumns  className="text-5xl" />
                 <div className="">
                   <h6>Address</h6>
@@ -59,7 +62,9 @@ const GetInTouch = () => {
             </div>
           </div>
         </div>
-        <div className="basis-1/2"></div>
+        <div className="basis-1/2 relative h-[90vh]">
+          <Image alt="image" src={ContactSvg} objectFit="cover" layout="fill" className="relative block"/>
+        </div>
       </div>
     </section>
   );
