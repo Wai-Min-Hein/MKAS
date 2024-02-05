@@ -5,8 +5,14 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "MKAS",
-  description: "Power by MKAS",
+  title: "Myanmar KAS Technology",
+  description: "Power by Myanmar KAS Technology",
+  icons: {
+    icon: './favicon.ico?v=4',
+    shortcut:'apple=touch-icon?v=4',
+    apple: 'apple=touch-icon'
+
+  }
   
 };
 

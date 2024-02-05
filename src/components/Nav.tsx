@@ -1,11 +1,13 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import LogoWhite from "../../public/mkasLogoWhite.png"
 
 const Nav = () => {
   return (
     <nav className="flex items-center justify-between container mx-auto pt-4">
-      <div className="">
-        <h6>MkAS</h6>
+      <div className="w-24 h-10 relative">
+        <Image alt="Image" src={LogoWhite} className="relative block" objectFit="contain" layout="fill"/>
       </div>
 
       <ul className=" flex items-center justify-end gap-12">
