@@ -14,8 +14,8 @@ const Package = () => {
         </p>
       </div>
 
-      <div className="flex items-stretch justify-between gap-4 mt-6">
-        <div className="basis-[30%] border border-gray-900 rounded-md px-6 py-4">
+      <div className="flex flex-wrap items-stretch justify-between gap-4 mt-6">
+        <div className="mx-auto md:mx-0 basis-3/5 md:basis-[48%] lg:basis-[30%] border border-gray-900 rounded-md px-6 py-4">
           <SlLayers className="text-6xl pb-2" />
           <h2>Basis</h2>
           <p>
@@ -41,10 +41,12 @@ const Package = () => {
             </div>
           </div>
 
-          <button className="w-full py-3 rounded-full mt-3 bg-sky-700">Select Plan</button>
+          <button className="w-full py-3 rounded-full mt-3 bg-sky-700">
+            Select Plan
+          </button>
         </div>
 
-        <div className="basis-[30%] border border-gray-900 rounded-md px-6 py-4">
+        <div className="mx-auto md:mx-0 basis-3/5 md:basis-[48%] lg:basis-[30%] border border-gray-900 rounded-md px-6 py-4">
           <SlLayers className="text-6xl pb-2" />
           <h2>Basis</h2>
           <p>
@@ -69,11 +71,12 @@ const Package = () => {
               <p>Lorem ipsum, dolor sit amet consectetur elit.</p>
             </div>
           </div>
-          <button className="w-full py-3 rounded-full mt-3 bg-sky-700">Select Plan</button>
-
+          <button className="w-full py-3 rounded-full mt-3 bg-sky-700">
+            Select Plan
+          </button>
         </div>
 
-        <div className="basis-[30%] border border-gray-900 rounded-md px-6 py-4">
+        <div className="mx-auto md:mx-0 basis-3/5 md:basis-[48%] lg:basis-[30%] border border-gray-900 rounded-md px-6 py-4">
           <SlLayers className="text-6xl pb-2" />
           <h2>Basis</h2>
           <p>
@@ -98,8 +101,9 @@ const Package = () => {
               <p>Lorem ipsum, dolor sit amet consectetur elit.</p>
             </div>
           </div>
-          <button className="w-full py-3 rounded-full mt-3 bg-sky-700">Select Plan</button>
-
+          <button className="w-full py-3 rounded-full mt-3 bg-sky-700">
+            Select Plan
+          </button>
         </div>
       </div>
     </section>

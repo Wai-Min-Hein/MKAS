@@ -18,7 +18,7 @@ const Team = () => {
       </div>
 
       <div className="flex items-center justify-start flex-wrap gap-x-8 gap-y-24 mt-24">
-        <div className="basis-[31%] flex items-center flex-col border border-gray-800 rounded-md pb-8 ">
+        <div className="basis-full sm:basis-[47%] lg:basis-[31%] px-12 md:px-0 md:w-full flex items-center flex-col border border-gray-800 rounded-md pb-8 ">
           <div className="relative w-40 h-40 rounded-full overflow-hidden mt-[-5rem] ">
             <Image
               alt="Image"
@@ -39,7 +39,7 @@ const Team = () => {
             <FaViber className="text-2xl" />
           </div>
         </div>
-        <div className="basis-[31%] flex items-center flex-col border border-gray-800 rounded-md pb-8 ">
+        <div className="basis-full sm:basis-[47%] lg:basis-[31%] px-12 md:px-0 md:w-full flex items-center flex-col border border-gray-800 rounded-md pb-8 ">
           <div className="relative w-40 h-40 rounded-full overflow-hidden mt-[-5rem] ">
             <Image
               alt="Image"
@@ -60,7 +60,7 @@ const Team = () => {
             <FaViber className="text-2xl" />
           </div>
         </div>
-        <div className="basis-[31%] flex items-center flex-col border border-gray-800 rounded-md pb-8 ">
+        <div className="basis-full sm:basis-[47%] lg:basis-[31%] px-12 md:px-0 md:w-full flex items-center flex-col border border-gray-800 rounded-md pb-8 ">
           <div className="relative w-40 h-40 rounded-full overflow-hidden mt-[-5rem] ">
             <Image
               alt="Image"
@@ -81,7 +81,7 @@ const Team = () => {
             <FaViber className="text-2xl" />
           </div>
         </div>
-        <div className="basis-[31%] flex items-center flex-col border border-gray-800 rounded-md pb-8 ">
+        <div className="basis-full sm:basis-[47%] lg:basis-[31%] px-12 md:px-0 md:w-full flex items-center flex-col border border-gray-800 rounded-md pb-8 ">
           <div className="relative w-40 h-40 rounded-full overflow-hidden mt-[-5rem] ">
             <Image
               alt="Image"

@@ -24,8 +24,8 @@ const Testimonials = () => {
           </div>
         </div>
 
-        <div className="flex items-center justify-between mt-16">
-          <div className="basis-[30%]">
+        <div className="flex items-center justify-between flex-wrap lg:flex-nowrap mt-16">
+          <div className="basis-full sm:basis-[48%] lg:basis-[30%]">
             <div className="w-24 h-24 relative rounded-full overflow-hidden">
               <Image
                 alt="Image"
@@ -53,7 +53,7 @@ const Testimonials = () => {
             <h1>Mark William</h1>
             <p>CEO of Pizza oro</p>
           </div>
-          <div className="basis-[30%]">
+          <div className="basis-full sm:basis-[48%] lg:basis-[30%]">
             <div className="w-24 h-24 relative rounded-full overflow-hidden">
               <Image
                 alt="Image"
@@ -81,7 +81,7 @@ const Testimonials = () => {
             <h1>Mark William</h1>
             <p>CEO of Pizza oro</p>
           </div>
-          <div className="basis-[30%]">
+          <div className="basis-full sm:basis-[48%] lg:basis-[30%]">
             <div className="w-24 h-24 relative rounded-full overflow-hidden">
               <Image
                 alt="Image"

@@ -16,10 +16,10 @@ import Testimonials from "@/components/Testimonials";
 const Home = () => {
   return (
     <main>
-      <section className="max-w-screen-2xl h-[125vh] bg-blue !text-white">
+      <section className="max-w-screen-2xl lg:h-[125vh] h-[130vh] bg-blue !text-white">
         <Nav />
-        <div className="container mx-auto flex items-center justify-between w-full h-full">
-          <div className="mt-[-5rem]">
+        <div className="container mx-auto flex flex-col lg:flex-row items-center justify-start lg:justify-between w-full h-full mt-12 lg:mt-0">
+          <div className="lg:mt-[-5rem]">
             <p>Digital Transformation Solution</p>
             <h1 className="text-6xl">Your sales is our passion</h1>
 
@@ -29,7 +29,7 @@ const Home = () => {
               </button>
             </div>
           </div>
-          <div className="basis-3/5 relative  h-full">
+          <div className="lg:basis-3/5 relative w-full h-3/4 lg:h-full">
             <Image
               src={homeSvg}
               alt="SVG Image"
@@ -45,7 +45,7 @@ const Home = () => {
 
 
       <System />
-      <Benefits />
+      <Benefits  />
       <Solutions />
       <Testimonials />
 

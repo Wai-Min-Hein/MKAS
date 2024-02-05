@@ -6,8 +6,8 @@ import { FaCircleCheck } from "react-icons/fa6";
 
 const ERP = () => {
   return (
-    <section className="container mx-auto h-screen flex items-center justify-between gap-24">
-      <div className="basis-1/2 h-full relative">
+    <section className="container mx-auto h-[120vh] lg:h-screen flex flex-col-reverse lg:flex-row items-center justify-start lg:justify-between gap-12 lg:gap-24">
+      <div className="basis-1/2 w-3/5 sm:w-4/5 h-full relative">
         <Image
           alt="images"
           src={ErpIcon}

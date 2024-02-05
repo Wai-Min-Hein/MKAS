@@ -7,9 +7,9 @@ import Image from 'next/image'
 
 const Download = () => {
   return (
-    <section className='container mx-auto h-screen flex items-center justify-start gap-6'>
+    <section className='container mx-auto h-screen flex flex-col-reverse lg:flex-row items-center justify-start gap-6'>
 
-        <div className="relative h-[90vh] basis-1/2">
+        <div className="relative w-full h-[90vh] basis-1/2">
             <Image alt='image' src={downloadPNg} objectFit='contain' layout='fill' className='relative block'/>
         </div>
 

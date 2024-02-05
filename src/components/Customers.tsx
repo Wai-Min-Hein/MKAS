@@ -70,7 +70,7 @@ const Customers = () => {
     <div className="flex items-center justify-between flex-wrap gap-y-8 gap-x-1">
       {customersInfo?.map((customer) => (
         <div
-          className="basis-[19%] flex items-center justify-start gap-2"
+          className=" basis-[48%] sm:basis-[32%] md:basis-[23%] lg:basis-[19%] flex items-center justify-start gap-2"
           key={customer?.id}
         >
           <div className="relative w-12 h-12 rounded-full overflow-hidden">
