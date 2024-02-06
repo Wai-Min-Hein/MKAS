@@ -8,14 +8,14 @@ const Package = () => {
       <div className="text-center">
         <p>Pricing</p>
         <h1>Best pricing for your bussiness</h1>
-        <p className="w-1/2 mx-auto">
+        <p className="w-full sm:w-5/6 md:w-4/6 lg:w-1/2 mx-auto">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde incidunt
           consequatur voluptatum doloremque nisi excepturi obcaec.
         </p>
       </div>
 
       <div className="flex flex-wrap items-stretch justify-between gap-4 mt-6">
-        <div className="mx-auto md:mx-0 basis-3/5 md:basis-[48%] lg:basis-[30%] border border-gray-900 rounded-md px-6 py-4">
+        <div className="mx-auto md:mx-0 basis-4/5 md:basis-[48%] lg:basis-[30%] border border-gray-900 rounded-md px-6 py-4">
           <SlLayers className="text-6xl pb-2" />
           <h2>Basis</h2>
           <p>
@@ -46,7 +46,7 @@ const Package = () => {
           </button>
         </div>
 
-        <div className="mx-auto md:mx-0 basis-3/5 md:basis-[48%] lg:basis-[30%] border border-gray-900 rounded-md px-6 py-4">
+        <div className="mx-auto md:mx-0 basis-4/5 md:basis-[48%] lg:basis-[30%] border border-gray-900 rounded-md px-6 py-4">
           <SlLayers className="text-6xl pb-2" />
           <h2>Basis</h2>
           <p>
@@ -76,7 +76,7 @@ const Package = () => {
           </button>
         </div>
 
-        <div className="mx-auto md:mx-0 basis-3/5 md:basis-[48%] lg:basis-[30%] border border-gray-900 rounded-md px-6 py-4">
+        <div className="mx-auto md:mx-0 basis-4/5 md:basis-[48%] lg:basis-[30%] border border-gray-900 rounded-md px-6 py-4">
           <SlLayers className="text-6xl pb-2" />
           <h2>Basis</h2>
           <p>

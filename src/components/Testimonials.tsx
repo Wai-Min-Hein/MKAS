@@ -11,7 +11,7 @@ const Testimonials = () => {
     <section className="container mx-auto my-12">
         <div className="flex items-center justify-between">
           <div className="basis-1/2">
-            <h6>Testimonials</h6>
+            <h6 className='text-2xl sm:text-3xl lg:text-4xl'>Testimonials</h6>
             <h1>What they say about Mkas Software</h1>
           </div>
 

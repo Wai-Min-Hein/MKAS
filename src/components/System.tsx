@@ -8,10 +8,10 @@ import Image from "next/image";
 const System = () => {
   return (
     <section className="container mx-auto py-6">
-      <div className="text-center">
+      <div className="lg:text-center">
         <p>System</p>
         <h1 className="text-4xl">Our System</h1>
-        <p className="w-full lg:w-2/5 mx-auto">
+        <p className="w-full md:w-4/5 lg:w-2/5 lg:mx-auto">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere sunt
           modi tempore natus placeat impedit maiores, et recusandae!
         </p>

@@ -16,12 +16,14 @@ import Testimonials from "@/components/Testimonials";
 const Home = () => {
   return (
     <main>
-      <section className="max-w-screen-2xl lg:h-[125vh] h-[130vh] bg-blue !text-white">
+      <section className="max-w-screen-2xl lg:h-[110vh] h-screen sm:h-[105vh] bg-blue !text-white ">
         <Nav />
-        <div className="container mx-auto flex flex-col lg:flex-row items-center justify-start lg:justify-between w-full h-full mt-12 lg:mt-0">
+        <div className="container mx-auto flex flex-col lg:flex-row items-start lg:items-center justify-start lg:justify-between w-full h-full mt-12 lg:mt-0 px-8 lg:px-0">
           <div className="lg:mt-[-5rem]">
             <p>Digital Transformation Solution</p>
-            <h1 className="text-6xl">Your sales is our passion</h1>
+            <h1 className="text-3xl sm:text-4xl md:text-4xl  xl:text-6xl">
+              Your sales is our passion
+            </h1>
 
             <div className="">
               <button className="bg-white px-6 py-2 rounded-full text-black mt-3">
@@ -29,7 +31,7 @@ const Home = () => {
               </button>
             </div>
           </div>
-          <div className="lg:basis-3/5 relative w-full h-3/4 lg:h-full">
+          <div className="lg:basis-1/2 relative  w-full sm:w-5/6 lg:w-full h-[65vh] sm:h-[75vh]  lg:h-full">
             <Image
               src={homeSvg}
               alt="SVG Image"
@@ -43,9 +45,8 @@ const Home = () => {
 
       <Customers />
 
-
       <System />
-      <Benefits  />
+      <Benefits />
       <Solutions />
       <Testimonials />
 

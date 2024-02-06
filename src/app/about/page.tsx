@@ -15,7 +15,7 @@ const About = () => {
 
         <div className="grid place-items-center h-full">
           <div className="text-center">
-            <h1 className="text-4xl">Services</h1>
+            <h1 className="text-4xl">About Us</h1>
             <div className="flex items-center justify-start gap-2">
               <Link href={"/"}>
                 <button>Home</button>

@@ -22,7 +22,7 @@ const GetInTouch = () => {
           </div>
 
           <div className="mt-4">
-            <div className="flex items-center justify-between gap-6">
+            <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6">
               <div className="flex items-start justify-start gap-6  basis-1/2">
                 <MdEmail className="text-5xl" />
                 <div className="">
@@ -40,7 +40,7 @@ const GetInTouch = () => {
               </div>
             </div>
 
-            <div className="flex items-center justify-between gap-6 mt-8">
+            <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6 mt-8">
               <div className="flex items-start justify-start gap-6 basis-1/2">
                 <FaBuildingColumns className="text-5xl" />
                 <div className="">
@@ -62,7 +62,7 @@ const GetInTouch = () => {
             </div>
           </div>
         </div>
-        <div className="lg:basis-1/2 w-full relative h-[90vh]">
+        <div className="lg:basis-1/2 w-full relative h-[50vh] md:h-[90vh]">
           <Image
             alt="image"
             src={ContactSvg}
