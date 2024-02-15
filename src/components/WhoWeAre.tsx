@@ -10,8 +10,7 @@ const WhoWeAre = () => {
         <p>About us</p>
         <h1>Who We Are?</h1>
         <p className="w-full sm:w-4/5 md:w-35 lg:w-2/5 mx-auto">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus
-          natus praesentium nemo, quaerat repellendus sunt.
+        We are the passionated technical professions who have the wiliness to solve the customer problems efficiently.
         </p>
       </div>
 

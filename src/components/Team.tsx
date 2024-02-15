@@ -11,10 +11,10 @@ const Team = () => {
       <div className="text-center">
         <p>Team</p>
         <h1>Meet team behind Myanmar KAS Technology</h1>
-        <p className="w-2/5 mx-auto">
+        {/* <p className="w-2/5 mx-auto">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
           possimus consectetur qui maxime eos architecto.
-        </p>
+        </p> */}
       </div>
 
       <div className="flex items-center justify-start flex-wrap gap-x-8 gap-y-24 mt-24">

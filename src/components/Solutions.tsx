@@ -9,9 +9,9 @@ const Solutions = () => {
         <div className="lg:text-center ">
           <h6>Digital Transformation Solution</h6>
           <h1 className="text-2xl sm:text-3xl lg:text-4xl">The Best Solutions for Your Bussiness</h1>
-          <p className="w-full sm:w-4/5 md:w-3/5 lg:w-2/5 lg:mx-auto">
+          {/* <p className="w-full sm:w-4/5 md:w-3/5 lg:w-2/5 lg:mx-auto">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, sapiente dolorum? Iure, nulla libero.
-          </p>
+          </p> */}
         </div>
 
 

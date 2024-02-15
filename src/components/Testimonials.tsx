@@ -16,11 +16,11 @@ const Testimonials = () => {
           </div>
 
           <div className="basis-1/2">
-            <p>
+            {/* <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Blanditiis veritatis quod ad excepturi eum, praesentium
               architecto. Id, porro. Voluptas sequi dolore.
-            </p>
+            </p> */}
           </div>
         </div>
 

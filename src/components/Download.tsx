@@ -18,7 +18,7 @@ const Download = () => {
             <h1 className='text-2xl sm:text-3xl lg:text-4xl'>Download app for your smart phone now</h1>
 
             <p className='w-full md:w-3/4'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae quam nam, dicta deserunt, illo corrupti officia molestias possimus tempora laborum distinctio.
+            Receive real-time updates, notifications, and related news directly on your device.
             </p>
 
             <div className="flex items-center justify-between w-2/3 mt-8">

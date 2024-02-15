@@ -9,8 +9,7 @@ const Package = () => {
         <p>Pricing</p>
         <h1>Best pricing for your bussiness</h1>
         <p className="w-full sm:w-5/6 md:w-4/6 lg:w-1/2 mx-auto">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde incidunt
-          consequatur voluptatum doloremque nisi excepturi obcaec.
+        Offering the the products with affordable price and better service
         </p>
       </div>
 

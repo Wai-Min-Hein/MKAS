@@ -14,8 +14,7 @@ const Benefits = () => {
         <p>Benefit</p>
         <h1 className="text-4xl w-4/6">Benefit using ERP system for You</h1>
         <p className="w-4/6">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore
-          consectetur quisquam perferendis veniam praesentium minus.
+        Data accuracy and consistency with  a centralized database. This reduces the chances of Human errors that can occur when data is scattered across various systems and departments.
         </p>
 
         <div className="flex items-center justify-start flex-wrap gap-y-12 gap-x-6 mt-8 ">
@@ -31,8 +30,7 @@ const Benefits = () => {
             </div>
             <h1>Aviod Human Errors</h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptatibus aperiam saepe.
+            Eliminate the manual data entry, reduce duplication of efforts, and enable employees to focus on more value-added activities.
             </p>
           </div>
 
@@ -48,12 +46,11 @@ const Benefits = () => {
             </div>
             <h1>Make your life easier</h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptatibus aperiam saepe.
+            Eliminate the manual data entry, reduce duplication of efforts, and enable employees to focus on more value-added activities.
             </p>
           </div>
 
-          <div className="basis-full  sm:basis-[47%]">
+          <div className="basis-full  sm:basis-[65%]">
             <div className="w-32 h-32 relative">
               <Image
                 alt="Image"
@@ -65,8 +62,7 @@ const Benefits = () => {
             </div>
             <h1>Manage all bussiness in one place</h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptatibus aperiam saepe.
+            Know your business data such as finance, human resources, supply chain, manufacturing, and customer relationship management. 
             </p>
           </div>
         </div>

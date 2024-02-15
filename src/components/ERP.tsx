@@ -23,9 +23,8 @@ const ERP = () => {
           <h1 className="text-4xl">Manage all your bussiness in one place</h1>
 
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error
-            provident culpa nihil vitae libero sed saepe nesciunt ducimus enim,
-            asperiores modi perferendis aspernatur harum maxime.
+          Know your business data such as finance, human resources, supply chain, manufacturing, and customer relationship management. 
+
           </p>
         </div>
 
@@ -33,36 +32,50 @@ const ERP = () => {
           <div className="flex items-center justify-start gap-2">
             <div className="flex items-center gap-2 justify-start basis-1/2">
               <FaCircleCheck className="text-[#3d5af1]" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisis.</p>
+              <p>
+                Point of Sales
+              </p>
             </div>
 
             <div className="flex items-center gap-2 justify-start basis-1/2">
               <FaCircleCheck className="text-[#3d5af1]" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisis.</p>
+              <p>Analysis Report</p>
             </div>
           </div>
 
           <div className="flex items-center justify-start gap-2 my-2">
             <div className="flex items-center gap-2 justify-start basis-1/2">
               <FaCircleCheck className="text-[#3d5af1]" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisis.</p>
+              <p>Inventory</p>
             </div>
 
             <div className="flex items-center gap-2 justify-start basis-1/2">
               <FaCircleCheck className="text-[#3d5af1]" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisis.</p>
+              <p>Purchase</p>
             </div>
           </div>
 
           <div className="flex items-center justify-start gap-2">
             <div className="flex items-center gap-2 justify-start basis-1/2">
               <FaCircleCheck className="text-[#3d5af1]" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisis.</p>
+              <p>HRM</p>
             </div>
 
             <div className="flex items-center gap-2 justify-start basis-1/2">
               <FaCircleCheck className="text-[#3d5af1]" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisis.</p>
+              <p>Finance</p>
+            </div>
+          </div>
+
+          <div className="flex items-center justify-start gap-2">
+            <div className="flex items-center gap-2 justify-start basis-1/2">
+              <FaCircleCheck className="text-[#3d5af1]" />
+              <p>CRM</p>
+            </div>
+
+            <div className="flex items-center gap-2 justify-start basis-1/2">
+              <FaCircleCheck className="text-[#3d5af1]" />
+              <p>Workplace</p>
             </div>
           </div>
         </div>

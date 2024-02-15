@@ -11,8 +11,7 @@ const Footer = () => {
             <h1>Myanmar KAS Technology</h1>
           </div>
           <p className="mt-4">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatu
-            incidunt itaque vitae corporis fugiat est quae dolore eum, lib.
+          Your success is our priority. Our solutions are geared towards elevating your customer experience, ensuring satisfaction at every transaction.
           </p>
 
           <div className="flex items-start justify-start gap-4 mt-4">

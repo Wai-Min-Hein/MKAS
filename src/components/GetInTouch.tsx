@@ -16,8 +16,7 @@ const GetInTouch = () => {
             <p>Contact</p>
             <h1>Get In Touch With Us</h1>
             <p>
-              Lorem ipum dolor sit amet consectetur adipisicing elit.
-              Praesentium veritatis excepturi, dicta expedita corrupti.
+            Interested in exploring how our POS solutions can benefit your business? Get in touch with our sales team for personalized consultations.
             </p>
           </div>
 
